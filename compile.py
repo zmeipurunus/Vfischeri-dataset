@@ -2,13 +2,14 @@ import re
 import csv
 import os
 
-# Get the directory where this script is located
+# directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
 input_file = os.path.join(script_dir, "vibrio_genbank.txt")
 output_file = os.path.join(script_dir, "vibrio_proteins_dataset.csv")
 
 proteins = []
 
+# modified code from ChatGPT (4, 2/19/2026)
 with open(input_file, "r") as f:
 	lines = f.readlines()
 

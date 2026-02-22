@@ -5,6 +5,8 @@ import pandas as pd
 import random
 import numpy as np
 
+# modified code from ChatGPT (4, 2/19/2026)
+
 # ========================
 # Configuration
 # ========================
